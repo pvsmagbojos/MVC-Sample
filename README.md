@@ -6,10 +6,10 @@ The COMELEC needs to prepare a program that will be used for the country's elect
 
 In the given sample, the presidential and vice-presidential candidates are:
 	
-	● ROBREDO, Leni (President)
-	● DUTERTE, Sara (President)
-	● MORENO, Isko (Vice-President)
-	● GO, Bong (Vice-President)
+	ROBREDO, Leni (President)
+	DUTERTE, Sara (President)
+	MORENO, Isko (Vice-President)
+	GO, Bong (Vice-President)
 
 Below is the sample program execution:
 
