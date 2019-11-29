@@ -13,52 +13,105 @@ In the given sample, the presidential and vice-presidential candidates are:
 
 Below is the sample program execution:
 
-	Welcome to the 2022 Presidential Comelec Elections
+	WELCOME TO THE 2020 PRESIDENTIAL COMELEC ELECTIONS
 
-	1 – Press 1 to VOTE
-	2 – Count the votes
-	3 – Program Termination
-
+	1 - New Session
+	2 - Shut down
+	
 	Enter choice: 1
+
+	Enter username: pcos-1123
+	Enter password: abcd1234
+	
+	WELCOME TO THE 2020 PRESIDENTIAL COMELEC ELECTIONS
+
+	1 - Vote
+	2 - End Session
+
+	Enter an option: 1
 
 	Enter voter’s ID: 123AC3
 	Enter Last Name: Nowitzki
 	Enter First Name: Dirk
 	Enter age: 30
 
-	List of President Candidates:
-	ROBREDO, Leni (President)
-	DUTERTE, Sara (President)
+	List of PRESIDENT Candidates:
+	1Liberal - ROBREDO, Leni
+	1HP - DUTERTE, Sara
 
-	Enter Presidential Candidates: Robredo
+	Enter Presidential Candidates: 1Liberal
 
-	List of Vice President Candidates:
-	MORENO, Isko (Vice-President)
-	GO, Bong (Vice-President)
+	List of VICE PRESIDENT Candidates:
+	2HP - GO, Bong
+	2Liberal - MORENO, Isko
 
-	Enter Vice-Presidential Candidate: Moreno
+	Enter VICE PRESIDENT Candidate ID: 2HP
+
+	Ballot Information: 
+	Voter ID: 123AC3
+	Voter Name: Nowitzki, Dirk
+	Voter Age: 30
+
+	PRESIDENT - ROBREDO, Leni
+	VICE PRESIDENT - GO, Bong
 
 	Thank you for voting.
 
-Assuming that the user has made multiple votes and have switched to the admin account:
+Assuming that the user has made multiple votes:
 
-	Welcome to the 2022 Comelec Elections Admin Panel
-	1 – Press 1 to VOTE
-	2 – Count the votes
-	3 – Program Termination
+	WELCOME TO THE 2020 PRESIDENTIAL COMELEC ELECTIONS
 
-	Enter choice: 2
+	1 - Vote
+	2 - End Session
 
-	Presidential Candidate Winner: Robredo (3)
-	Vice-President Winner: Moreno (3)
+	Enter an option: 2
 
-	Welcome to the 2022 Comelec Elections Admin Panel
-	1 – Press 1 to VOTE
-	2 – Count the votes
-	3 – Program Termination
+	Thank you for using this voting machine. Session has ended.
+	WELCOME TO THE 2020 PRESIDENTIAL COMELEC ELECTIONS
 
-	Enter choice: 3
+	1 - New Session
+	2 - Shut down
 
-	Program exited. Thank you for using the application.
+	Enter an option: 1
+	
+	Enter username: 09123rheikde
+	Enter password: abcde1234
+
+	WELCOME TO 2020 PRESIDENTIAL COMELEC ELECTIONS
+	DEBUG MENU
+
+	1 - Get Vote Tally
+	2 - Add New Candidate
+	3 - Remove Candidate
+	4 - End Session
+
+	Enter an option: 1
+
+	PRESIDENTCandidates: 
+	Robredo, Leni - 5
+	Duterte, Sara - 4
+
+	VICE PRESIDENTCandidates: 
+	Go, Bong - 3
+	Moreno, Isko - 6
+
+	WELCOME TO 2020 PRESIDENTIAL COMELEC ELECTIONS
+	DEBUG MENU
+
+	1 - Get Vote Tally
+	2 - Add New Candidate
+	3 - Remove Candidate
+	4 - End Session
+
+	Enter an option: 4
+
+	WELCOME TO THE 2020 PRESIDENTIAL COMELEC ELECTIONS
+
+	1 - New Session
+	2 - Shut down
+
+	Enter an option: 2
+
+	Thank you for using this voting machine. Machine is now shutting down.
 
 Assume that all user inputs are valid.
