@@ -2,7 +2,8 @@
 Sample project for basic model view controller design implementation (without Observables)
 
 Presidential Elections System
-The COMELEC needs to prepare a program that will be used for the country's elections. As the programmer, you have to create a program that utilizes the MVC design pattern. The application will promote encapsulation based on its identified data – a registered voter will encode the voter ID assigned (a combination of numbers and letters), voter’s name (last name and first name), age, chosen Presidential and Vice-Presidential candidates. The application must also be capable of counting the number of votes cast for the candidates. The program also has multiple different sessions in place for different users. An admin session is opened to edit the ballot information, such as the list of candidates for the election, and the positions available in the elections.
+
+The Comelec needs to prepare a program that will be used for the country's elections. As the programmer, you have to create a program that utilizes the MVC design pattern. The application will promote encapsulation based on its identified data – a registered voter will encode the voter ID assigned (a combination of numbers and letters), voter’s name (last name and first name), age, chosen Presidential and Vice-Presidential candidates. The application must also be capable of counting the number of votes cast for the candidates. The program also has multiple different sessions in place for different users. An admin session is opened to edit the ballot information, such as the list of candidates for the election, and the positions available in the elections.
 
 In the given sample, the presidential and vice-presidential candidates are:
 	
